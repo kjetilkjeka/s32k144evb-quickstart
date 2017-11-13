@@ -1,6 +1,6 @@
 [package]
 name = "s32k144evb-quickstart"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Kjetil Kjeka <kjetilkjeka@gmail.com>"]
 categories = ["embedded", "no-std", "hardware-support"]
 repository = "https://github.com/kjetilkjeka/s32k144evb-quickstart"
