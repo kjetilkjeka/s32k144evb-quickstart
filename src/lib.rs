@@ -17,7 +17,7 @@
 //! - Clone this crate
 //!
 //! ``` text
-//! $ cargo clone cortex-m-quickstart && cd $_
+//! $ cargo clone s32k144evb_quickstart && cd $_
 //! ```
 //!
 //! - Change the crate name, author and version
