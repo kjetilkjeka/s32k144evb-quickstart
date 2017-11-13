@@ -2,10 +2,14 @@
 name = "s32k144evb-quickstart"
 version = "0.2.0"
 authors = ["Kjetil Kjeka <kjetilkjeka@gmail.com>"]
-categories = ["embedded", "no-std", "hardware-support"]
+
 repository = "https://github.com/kjetilkjeka/s32k144evb-quickstart"
 description = "Template for getting started with development on the NXP s32k144evb evaluation board"
+readme = "README.md"
+
+categories = ["embedded", "no-std", "hardware-support"]
 keywords = ["arm", "cortex-m", "s32k144", "template"]
+
 license = "MIT OR Apache-2.0"
 
 [dependencies]
