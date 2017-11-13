@@ -19,13 +19,3 @@ fn main() {
     println!("Hello, world!");
     loop{}
 }
-
-// As we are not using interrupts, we just register a dummy catch all handler
-#[allow(dead_code)]
-#[used]
-#[link_section = ".vector_table.interrupts"]
-static INTERRUPTS: [extern "C" fn(); 240] = [default_handler; 240];
-
-extern "C" fn default_handler() {
-    asm::bkpt();
-}
